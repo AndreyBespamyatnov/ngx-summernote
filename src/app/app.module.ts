@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { Ng2Summernote } from './ng2-summernote';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Ng2Summernote
   ],
   imports: [
     BrowserModule
